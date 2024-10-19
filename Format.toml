@@ -1,0 +1,38 @@
+[indent]
+indentSize = 4
+continuationIndentSize = 8
+
+[wrapping]
+maxLineLength = 120
+simpleBlocksInOneLine = true
+simpleFunctionsInOneLine = true
+
+[braces]
+classBraceStyle = "EndOfLine"
+functionBraceStyle = "EndOfLine"
+
+[functionDefinition]
+parametersWrap = "Wrap"
+alignMultilineParameters = true
+newLineAfterLeftParen = false
+rightParenOnNewLine = false
+
+[functionCall]
+argumentsWrap = "Wrap"
+alignMultilineArguments = false
+newLineAfterLeftParen = false
+rightParenOnNewLine = false
+
+[ifStatement]
+elseOnNewLine = false
+
+[spacing]
+afterTypeCast = true
+aroundRecordBraces = true
+
+[import]
+groupImports = true
+sortImports = true
+
+[query]
+alignMultiLineQueries = true
